@@ -1,0 +1,68 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  background-color: #e8e5da;
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  color: #000;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.masthead {
+  background: transparent url("../img/masthead-bg.png") repeat left center;
+  text-align: center;
+}
+
+.title {
+  display: inline-block;
+  padding: 0 72px;
+
+  background:
+    url("../img/star.svg") no-repeat 12px center / 48px auto,
+    url("../img/star.svg") no-repeat calc(100% - 12px) center / 48px auto #e8e5da
+  ;
+
+  text-shadow: 3px 3px 0 #c0bfbf;
+}
+
+.logo {
+  margin: 0 0.2em 0 0;
+  width: 1.2em;
+  vertical-align: middle;
+}
+
+.panel {
+  border-image: url("../img/panel-border.png") 22 22 22 22 stretch stretch;
+  border-width: 22px 22px 22px 22px;
+}
+
+.box {
+  padding: 70px 2em;
+
+  background:
+    url("../img/hat.svg") no-repeat center 18px / 64px auto,
+    url("../img/handcuffs.svg") no-repeat center calc(100% - 18px) / 64px auto #87714f
+  ;
+
+  color: #fff;
+}
+
+ul {
+  padding-left: 1em;
+}
