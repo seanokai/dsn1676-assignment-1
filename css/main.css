@@ -25,21 +25,20 @@ html {
 }
 
 .masthead {
-    background: url("../img/masthead-bg.png") repeat left center;
-    text-align: center;
-    height: 2.5rem;
-    margin: 1rem;
+  background: transparent url("../img/masthead-bg.png") repeat left center;
+  text-align: center;
 }
 
 .title {
-    display: inline-block;
-    width: 13rem;
-    padding: .5em;
-    background: url("../img/star.svg") repeat left center;
-    background-color: #E7E5D9;
-    background-repeat: no-repeat;
-    margin-top: -1rem;
-    text-shadow: 2px 2px #939598;
+  display: inline-block;
+  padding: 0 72px;
+
+  background:
+    url("../img/star.svg") no-repeat 12px center / 32px auto,
+    url("../img/star.svg") no-repeat calc(100% - 12px) center / 32px auto #e8e5da
+  ;
+
+  text-shadow: 3px 3px 0 #c0bfbf;
 }
 
 .logo {
